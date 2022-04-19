@@ -4,3 +4,8 @@ body {
 font-family: 'Source Serif Pro', serif;
 font-family: 'Unna', serif;
 }
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
