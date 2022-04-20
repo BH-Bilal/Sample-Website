@@ -1,16 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Source+Serif+Pro&family=Unna&display=swap');
+
+:root {
+    --primary-color: #a78bfa;
+}
 body {
     font-family: 'Courgette', cursive;
-font-family: 'Source Serif Pro', serif;
-font-family: 'Unna', serif;
+    font-family: 'Source Serif Pro', serif;
+    font-family: 'Unna', serif;
 }
 
-.container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+hr {
+    margin: 1rem 0rem;
 }
-
-.container-center{
+.container {
+    padding: 0rem 1rem;
+}
+.container-center {
     max-width: 600px;
     margin: auto;
 }
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/* #30BECB  */
