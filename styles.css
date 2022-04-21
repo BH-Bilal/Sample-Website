@@ -2,6 +2,9 @@
 
 :root {
     --primary-color: #a78bfa;
+    --secondary-color: #4c1d95;
+    --third-color: black;
+    --color: blueviolet;
 }
 body {
     font-family: 'Courgette', cursive;
@@ -47,14 +50,37 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 0.5rem;
+    border-bottom-left-radius: 1rem;
 }
 .navigation-container .brand{
-    font-weight:600;
-}
+    font-weight:bold;
+    font-size: larger;
+    }
 .navigation-container .nav-pills{
 text-align: right;
 }
 .navigation-container .link{
     
     color: white;
+}
+.navigation-container .link-active{
+    font-weight: bold;
+}
+.hero {
+    padding: 2rem;
+    text-align: center;
+}
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    color: var(--color);
+}
+.hero .hero-heading .highlight{
+    color: var(--third-color);
+}
+.hero .hero-heading .high{
+    color: var(--secondary-color);
 }
