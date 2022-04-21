@@ -111,5 +111,20 @@ hr {
 
 .ow {
     background-color:var(--primary-color)
+    
 
+}
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: whitesmoke;
+    border-bottom-right-radius: 1rem;
+
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
