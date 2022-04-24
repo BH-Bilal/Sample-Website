@@ -17,6 +17,12 @@ hr {
     margin: 1rem 0rem;
 }
 
+.margin{
+    margin: 2rem
+}
+
+
+
 .container {
     padding: 0rem 1rem;
 }
@@ -79,6 +85,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
     text-align: center;
 }
 
