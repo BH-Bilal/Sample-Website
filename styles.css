@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Source+Serif+Pro&family=Unna&display=swap');
-
 :root {
     --primary-color: #a78bfa;
     --secondary-color: #4c1d95;
@@ -17,11 +16,9 @@ hr {
     margin: 1rem 0rem;
 }
 
-.margin{
+.margin {
     margin: 2rem
 }
-
-
 
 .container {
     padding: 0rem 1rem;
@@ -75,7 +72,6 @@ hr {
 }
 
 .navigation-container .link {
-
     color: white;
 }
 
@@ -111,36 +107,31 @@ hr {
     padding: 2rem;
 }
 
-
 .section h1 {
     text-align: center;
 }
 
 .ow {
-    background-color:var(--primary-color)
-    
-
+    background-color: var(--primary-color)
 }
-.footer{
+
+.footer {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
     color: whitesmoke;
     border-bottom-right-radius: 1rem;
-
 }
-.footer .link{
+
+.footer .link {
     color: white;
 }
 
-.footer .footer-header{
+.footer .footer-header {
     font-weight: bold;
     font-size: large;
 }
 
-
-
-
-.footer ul{
+.footer ul {
     padding-inline-start: 0px;
 }
